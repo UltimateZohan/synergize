@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./popup.css">
+        <title>Home Page</title>
+    </head>
+
+
+    <body>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#SyndocModal">Click Open
+            Popup</button>
+
+        <!-- Modal -->
+        <div id="SyndocModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-md">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Change Permissions</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <!-- SHARED USERS START -->
+                        <table class="table shared-table">
+                            <thead>
+                                <tr>
+                                    <th>Shared with</th>
+                                    <th>Read</th>
+                                    <th>Write</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>zshake11@gmail.com</td>
+                                    <td>
+                                        <form action="">
+                                            <input type="checkbox">
+                                        
+                                        <i class="fa fa-check-circle"></i>
+                                    </td>
+                                    <td>
+                                        
+                                            <input type="checkbox">
+                                        
+                                        <i class="fa fa-check-circle"></i>
+                                    </td>
+                                    <td>
+                                        
+                                            <input type="checkbox">
+                                        
+                                        <i class="fa fa-trash"></i>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- SHARED USERS END -->
+
+                        <!-- SHARE TO USERS START -->
+                        <table class="table add-user-table">
+                            <thead>
+                                <tr>
+                                    <th>Add User</th>
+                                    <th class="text-right">Read</th>
+                                    <th class="text-right">Write</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="text" name="email" class="form-control"></td>
+                                    <td class="text-right">
+                                        <form action="">
+                                            <input type="checkbox">
+                                        
+                                        <i class="fa fa-check-circle"></i>
+                                    </td>
+                                    <td class="text-right">
+                                        
+                                            <input type="checkbox">
+                                        
+                                        <i class="fa fa-check-circle"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text" class="form-control" placeholder="Optional Message"></td>
+                                    <td class="inline text-right"><p class="sgntxt sgntextfirst">Sign in required?</p><div><input type="checkbox"><i class="fa fa-check-circle"></i></div></td>
+                                    <td class="inline text-right"><p class="sgntxt sgntextsecond">Send Invitation?</p> <div><input type="checkbox"><i class="fa fa-check-circle"></i></div></td>
+                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                        <input type="submit" class="btn btn-add hidden-sm hidden-xs" value="Add User">
+                        <!-- SHARE TO USERS END -->
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <div class="row">
+                            <div class="col-md-4 text-left col-xs-4 col-sm-4">
+                                    <p class="text-link"><b>Get Sharable Link <i class="fa fa-link"></i></b></p>
+                            </div>
+                            <div class="col-md-6 col-md-offset-2 text-right col-xs-8 col-sm-8">
+                                    <div type="button" class="btn btn-default" class="close" data-dismiss="modal">Cancel</div>
+                                    <button type="button" class="btn btn-primary" class="close" data-dismiss="modal">Save Changes</button>
+                            </div>
+                        </div>
+                        <div class="row drop-link">
+                            <div class="col-md-9 text-left">
+                                <p>https://www.your-link-over-here/api/anything.com</p>
+                            </div>
+                            <div class="col-md-3 text-left">
+                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Access Type
+                                    <span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="">View</a></li>
+                                      <li><a href="">Edit</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+
+
+</html>

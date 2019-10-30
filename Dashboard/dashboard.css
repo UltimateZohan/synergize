@@ -1,0 +1,141 @@
+body p, label, a, button{
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  body p{
+    font-size: 15px;
+    line-height: 30px;
+  }
+  body a,body a:hover{
+    text-decoration: none;
+    color: black;
+  }
+  .heading{
+    font-family: 'Roboto', sans-serif;
+  }
+  .navbar-dashboard{
+    box-shadow: 8px 2px 6px 0 rgba(32, 33, 36, .28);
+    background: white;
+    border-radius: 0;
+}
+
+.navbar-dashboard .navbar-nav{
+    padding-top: 10px;
+}
+.nav>li>a:focus, .nav>li>a:hover,
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: transparent;
+    color: black
+}
+.dropdown-menu{
+    font-size: 0.9rem;
+    margin-top: 0px;
+    position: absolute;
+    top: 48px;
+    right: 0px;
+    left: auto;
+    padding: 0px;
+}
+.dropdown-menu li a{
+    font-size: 15px;
+}
+.dash-main-content{
+    background: #F6F8FA;
+}
+.dash-main-content .tab-section{
+    padding: 0
+}
+.sidebar{
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(0, 64, 138) 0%, rgb(0, 64, 138) 20%, rgb(4, 188, 221) 100%);
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+    padding: 0;
+    height: 100vh;
+}
+.sidebar .logo{
+    background: white;
+    padding: 4px 25px;
+    height: 62px;
+    width: 100%;
+    box-shadow: 8px 2px 6px 0 rgba(32, 33, 36, .28);
+}
+.sidebar .nav-stacked{
+    padding: 10px 15px; 
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background: transparent;
+}
+.nav-pills>li>a,
+.nav-pills>li>a:hover,
+.nav-pills>li>a:active,
+.nav-pills>li>a:focus{
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    padding-left: 0;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    justify-content: flex-end;
+    white-space: nowrap;
+    height: 48px;
+    padding: 15px 0 15px 0;
+    color: white;
+}
+.nav-pills>li:last-child a{
+    border: none;
+}
+.nav-pills>li>a .fa{
+    margin-right: 8px;
+}
+.tab-content{
+    padding: 1px 40px;
+}
+.account-sec{
+    position: relative;
+}
+.account-sec .add-account-toggle .fab{
+    position: fixed;
+    bottom: 2%;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0,0,0,.12);
+    padding: 11px 18px;
+    border-radius: 50%;
+    background: grey;
+    right: 3%;
+    background-color: #0176AE;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.account-sec .add-account-toggle .rotate{
+    transition: 0.5s;
+    transform: rotate(-360deg);
+}
+.account-sec .add-account-toggle .showup{
+    position: fixed;
+    bottom: 12%;
+    right: 3.2%;
+}
+.account-sec .add-account-toggle .showup .img-responsive{
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 5px; 
+}
+.account-sec .fab:hover{
+    box-shadow: none;
+    transition: 0.5s;
+}
+.account-sec .fab .glyphicon{
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+}
+.btn-red, .btn-red:hover{
+    background: #D73836;
+    color: white;
+    border-radius: 0;
+}
+.btn-info, .btn-info:hover{
+    background: #2196F3;
+    border: 0;
+    border-radius: 0;
+}
+.all-form, .s3-form{
+    display: none;
+}

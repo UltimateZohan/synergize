@@ -1,0 +1,27 @@
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .navbar-custom{
+        margin-bottom: 0;
+    }
+    .navbar-custom .navbar-brand .logo {
+        height: 50px;
+    }
+    .navbar-custom .navbar-brand{
+        padding: 8px;
+    }
+    .navbar-custom .navbar-toggle{
+        border-color: black;
+        margin-top: 18px;
+    }
+    .navbar-toggle .icon-bar{
+        background: black;
+    }
+    .main-header{
+        padding: 35px;
+    }
+    .main-content{
+        padding-top: 0;
+    }
+    .main-content .text-justify{
+        box-shadow: none;
+    }
+}

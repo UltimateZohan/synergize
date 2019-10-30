@@ -1,0 +1,34 @@
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .dash-main-content{
+        background: white;
+    }
+    .navbar-dashboard{
+        background: rgb(4,188,221);
+        background: linear-gradient(90deg, rgba(4,188,221,1) 0%, rgba(0,64,138,1) 100%);
+        border: 0;
+    }
+    .navbar-dashboard .navbar-brand{
+        padding: 0;
+        background: white;
+        padding-right: 12px;
+        padding-left: 10px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .navbar-dashboard .navbar-brand .logo{
+        height: 47px;
+    }
+    .navbar-dashboard .navbar-toggle{
+        border-color: white;
+    }
+    .navbar-dashboard .navbar-toggle .icon-bar{
+        background: white;
+    }
+    .navbar-dashboard .navbar-nav li a{
+        color: white;
+    }
+    .navbar-dashboard .navbar-nav li .fa{
+        color: white;
+        margin-right: 5px;
+    }
+}

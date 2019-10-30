@@ -1,0 +1,36 @@
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .ms1 .logo{
+        height: 40px;
+    }
+    .mobile-form .form-section{
+        box-shadow: none;
+        height: auto;
+    }
+    .ms1 .fp-tableCell{
+        vertical-align: top;
+    }
+    .s1 .heading{
+        font-size: 45px;
+    }
+    .s1 .col-md-5{
+        padding-top: 0;
+        padding-left: 10px;
+    }
+    .s1 .col-md-5 .btn{
+        margin-top: 30px;
+    }
+
+    .s2 .col-md-3 .img-responsive{
+        height: 40px;
+    }
+    .s2 .col-md-4 .heading{
+        text-align: center;
+    }
+    .s2 .col-md-4{
+        text-align: center;
+    }
+
+    .form-section form .row{
+        margin-top: 0;
+    }
+}

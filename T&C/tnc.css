@@ -1,0 +1,49 @@
+body p, label, a, button{
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  body p{
+    font-size: 15px;
+    line-height: 30px;
+  }
+  body a,body a:hover{
+    text-decoration: none;
+    color: black;
+  }
+  .heading{
+    font-family: 'Roboto', sans-serif;
+  }
+  .navbar-custom{
+      margin-bottom: 5px;
+  }
+  .navbar-custom .logo{ 
+    height: 60px;       
+  }
+  .navbar-custom .navbar-nav{
+      padding-top: 15px;
+  }
+  .navbar-custom .navbar-nav li a{
+      font-weight: bold;
+  }
+  .nav>li>a:focus, .nav>li>a:hover{
+      background: transparent;
+      background: -webkit-linear-gradient(left, #0C57C6 0%, #08CAEB 51%, #0C57C6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  .navbar-custom .navbar-brand{
+      padding: 0;
+      padding-top: 2px;
+  }
+  .main-header{
+    background: rgb(12,94,198);
+    background: linear-gradient(90deg, rgba(12,94,198,1) 26%, rgba(8,202,235,1) 100%);
+    color: white;
+    padding: 80px;
+}
+.main-content{
+    padding-top: 50px;
+}
+.main-content .text-justify{
+    padding: 40px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+}

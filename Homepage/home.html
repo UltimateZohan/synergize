@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./home.css">
+        <link rel="stylesheet" href="./home-responsive.css">
+        <title>Home Page</title>
+    </head>
+
+
+    <body">
+        <div class="container-fluid">
+            <div class="row">
+
+
+                <!-- LEFT SECTION START -->
+                <div class="col-md-9 no-pad scroll-section">
+                    <div id="fullpage">
+
+                        <!-- MOBILE FORM SECTION START -->
+                        <div class="section ms1 hidden-md hidden-lg">
+                            <div class="container-fluid mobile-form form-section">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="./images/syndoc-logo.png" alt="" class="img-responsive logo">
+                                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner">
+                                                <!-- FORGOT PASSWORD FORM START -->
+                                                <div class="item ">
+                                                    <h1 class="heading"><b>Forgot</b> Password</h1>
+                                                    <p>Enter your email to see the steps on how to change your password
+                                                    </p>
+                                                    <form action="">
+                                                        <div class="form-group">
+                                                            <div class="fa fa-at"></div>
+                                                            <input type="email" class="form-control" id="email"
+                                                                placeholder="Email" required>
+                                                        </div>
+
+                                                        <div class="row">
+
+                                                            <div class="col-md-6 text-right">
+                                                                <input type="submit" class="btn btn-custom" name="login"
+                                                                    value="Send Link">
+                                                            </div>
+                                                            <div class="col-md-6 text-center">
+                                                                <p><a href="#myCarousel" data-slide="next"><span><b>Back
+                                                                                to Login</b></span></a></p>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                    <br>
+
+                                                </div>
+                                                <!-- FORGOT PASSWORD FORM END -->
+
+                                                <!-- LOGIN FORM START -->
+                                                <div class="item">
+                                                    <h1 class="heading"><b>Log</b> In</h1>
+                                                    <p>Enter your email and password to enter the cloud.</p>
+                                                    <form action="">
+                                                        <div class="form-group">
+                                                            <div class="fa fa-at"></div>
+                                                            <input type="email" class="form-control" id="email"
+                                                                placeholder="Email" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="fa fa-lock"></div>
+                                                            <input type="password" class="form-control password-field"
+                                                                id="pwd" placeholder="Password" required>
+                                                            <div class="fa fa-eye"></div>
+                                                        </div>
+                                                        <div class="row">
+
+                                                            <div class="col-md-6 text-right">
+                                                                <input type="submit" class="btn btn-custom" name="login"
+                                                                    value="Log Me In">
+                                                            </div>
+                                                            <div class="col-md-6 text-center">
+                                                                <a href="#myCarousel" data-slide="prev"><span><b>Forgot
+                                                                            Password</b></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+
+                                                    <p class="text-center">Don't have an account? <a href="#myCarousel"
+                                                            data-slide="next"><span class="gradient-heading"><b>Click
+                                                                    here to sign up</b></span></a></p>
+                                                    <p class="text-center"><b>Swipe Down To Know More..</b></p>
+                                                </div>
+                                                <!-- LOGIN FORM END -->
+
+                                                <!-- SIGN UP FORM START -->
+                                                <div class="item active">
+                                                    <h1 class="heading"><b>Sign</b> Up</h1>
+                                                    <p>Please enter your details to sign up.</p>
+                                                    <form action="">
+                                                        <div class="form-group">
+                                                            <div class="fa fa-address-card"></div>
+                                                            <input type="text" class="form-control signup-val-check" name="name"
+                                                                placeholder="Name" required>
+                                                            <p class="text-red">Field cannot be empty</p>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="fa fa-user"></div>
+                                                            <input type="text" class="form-control signup-val-check" name="username"
+                                                                placeholder="Username" required>
+                                                            <p class="text-red">Field cannot be empty</p>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="fa fa-at"></div>
+                                                            <input type="email" class="form-control signup-val-check" name="email"
+                                                                placeholder="Email" required>
+                                                            <p class="text-red">Field cannot be empty</p>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="fa fa-lock"></div>
+                                                            <input type="password"
+                                                                class="form-control password-field signup-pwd mobile-signup-pwd"
+                                                                name="pwd" placeholder="Password" required>
+                                                            <div class="fa fa-eye"></div>
+                                                        </div>
+                                                        <div class="strength-check">
+                                                            <p><i class="fa fa-times lengthcheck"></i> Must be 8 char
+                                                                long</p>
+                                                            <p><i class="fa fa-times alphanumcheck"></i> Must be
+                                                                Alphanumeric</p>
+                                                            <p><i class="fa fa-times capscheck"></i> Must contain a
+                                                                capital alphabet</p>
+                                                            <p><i class="fa fa-times specialcheck"></i> Must contain a
+                                                                special character</p>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="submit" class="btn btn-custom" name="signup"
+                                                                value="Sign Me Up">
+                                                        </div>
+
+                                                    </form>
+                                                    <p>Already have an account? <a href="#myCarousel"
+                                                            data-slide="prev"><span class="gradient-heading"><b>Click
+                                                                    here to Log In</b></span></a></p>
+                                                    <p class="text-center"><b>Swipe Down To Know More..</b></p>
+                                                </div>
+                                                <!-- SIGN UP FORM END -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- MOBILE FORM SECTION END -->
+
+                        <!-- INTRO SECTION START -->
+                        <div class="section s1">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-7 col-md-push-5">
+                                        <img src="./images/test2.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-md-5 col-md-pull-7">
+                                        <h1 class="heading">SYNDOC</h1>
+                                        <p>Synergyze Your Documents</p>
+                                        <p class="text-justify">Synergize documents by managing, analyzing and combining
+                                            all your data across multiple cloud providers and with more than one account
+                                            in a single place.</p>
+                                        <a href="" class="btn btn-white">Learn More About Us</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="./images/down-arrow.png" alt="" class="img-responsive hidden-xs hidden-sm down-arrow">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- INTRO SECTION END-->
+
+                        <!-- MULTICLOUD SECTION START -->
+                        <div class="section s2">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-push-4">
+                                        <img src="./images/cloud.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-md-4 col-md-pull-8">
+                                        <h1 class="heading">AWESOME INTEGRATION</h1>
+                                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Velit quo accusamus recusandae voluptate at quidem voluptatum quos beatae
+                                            optio consequatur, possimus, non facere fugiat ab! Magni eum assumenda rerum
+                                            impedit!</p>
+                                        <a href="#myCarousel1" data-slide-to="2"
+                                            class="btn btn-white hidden-xs hidden-sm">Sign Up Now</a>
+                                        <a href="#myCarousel" data-slide-to="2"
+                                            class="btn btn-white hidden-lg hidden-md" onclick="myFunction()">Sign Up
+                                            Now</a>
+                                        <br><br>
+                                        <div class="row">
+                                            <div class="col-md-3 col-xs-3">
+                                                <img src="./images/drive.png" alt="" class="img-responsive">
+                                            </div>
+                                            <div class="col-md-3 col-xs-3">
+                                                <img src="./images/one-drive.png" alt="" class="img-responsive">
+                                            </div>
+                                            <div class="col-md-3 col-xs-3">
+                                                <img src="./images/dropbox.png" alt="" class="img-responsive">
+                                            </div>
+                                            <div class="col-md-3 col-xs-3">
+                                                <img src="./images/amazon.png" alt="" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- MULTICLOUD SECTION END -->
+
+                        <!-- FEATURES SECTION START -->
+                        <div class="section s3 feature-sec">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <h2 class="heading text-center">FEATURES</h2>
+                                    <div class="col-md-4 text-right features left hidden-xs hidden-sm">
+                                        <div class="single-feature">
+                                            <p>Multi Cloud Support</p>
+                                            <span><i>Upload/download files to Google Drive, OneDrive, Amazon S3 and
+                                                    DropBox</i></span>
+                                        </div>
+                                        <div class="single-feature">
+                                            <p>Quick Migration</p>
+                                            <span><i>Copy and move files quickly between multiple accounts and
+                                                    providers</i></span>
+                                        </div>
+                                        <div class="single-feature">
+                                            <p>Live Preview</p>
+                                            <span><i>Rename and export files and documents, preview and edit
+                                                    files</i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-xs-12">
+                                        <img src="./images/ui.png" alt="" class="img-responsive hidden-xs hidden-sm">
+                                        <img src="./images/ui-d.png" alt="" class="img-responsive hidden-md hidden-lg">
+                                    </div>
+                                    <div class="col-md-4 text-left features right hidden-xs hidden-sm">
+                                        <div class="single-feature">
+                                            <p>Zip & Unzip it</p>
+                                            <span><i>Compress and extract folders on the go with quick & easy
+                                                    zipping.</i></span>
+                                        </div>
+                                        <div class="single-feature">
+                                            <p>Secure Files</p>
+                                            <span><i>Designed to protect your data whenever you transfer, store, or
+                                                    access it.</i></span>
+                                        </div>
+                                        <div class="single-feature">
+                                            <p>Accesibility</p>
+                                            <span><i>Change access permissions for files & folders whenever you
+                                                    need.</i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FEATURES SECTION END -->
+
+                        <!-- MIGRATION SLIDE START -->
+                        <div class="section s4">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="heading">Move files easily from one drive to another!</h2>
+                                        <p class="text-justify">Copy and move files quickly between multiple accounts
+                                            and providers. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                            Exercitationem voluptatibus repellendus quo, sunt expedita, autem fugiat
+                                            dignissimos facere qui sequi pariatur nihil ea. Vero et delectus saepe!
+                                            Placeat, magnam! Dicta?</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="./images/3.png" alt="" class="img-responsive">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- MIGRATION SLIDE END -->
+
+                        <!-- MULTI ACCOUNT SLIDE START -->
+                        <div class="section s6">
+                            <div class="container-fluid">
+                                <div class="row">
+
+                                    <div class="col-md-6 col-md-push-6">
+                                        <h2 class="heading">Multiple Account Support</h2>
+                                        <p class="text-justify">Use Multiple account at the same time. Lorem ipsum dolor
+                                            sit amet consectetur adipisicing elit. Voluptates ut atque reiciendis
+                                            distinctio, quibusdam saepe amet nemo. Possimus repellendus quae saepe,
+                                            mollitia officiis fuga quidem autem ad, animi, alias minus?</p>
+
+                                    </div>
+                                    <div class="col-md-6 col-md-pull-6">
+                                        <img src="./images/1.png" alt="" class="img-responsive">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- MULTI ACCOUNT SLIDE END -->
+
+                        <!-- COMPRESSION & DECOMPRESSION START -->
+                        <div class="section s7">
+                            <div class="container-fluid">
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <h2 class="heading">Compress & Extract Files on the go!</h2>
+                                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Deleniti similique odio ab fuga qui, laboriosam molestias ratione in enim
+                                            recusandae magnam consequuntur rerum, accusamus, numquam repellendus
+                                            voluptatibus! Voluptatibus, libero quam!</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="./images/4.png" alt="" class="img-responsive">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- COMPRESSION & DECOMPRESSION END -->
+
+                        <!-- SECURITY SLIDE START -->
+                        <div class="section s5">
+                            <div class="container-fluid">
+                                <div class="row">
+
+
+
+                                    <div class="col-md-6 col-md-push-6">
+                                        <h2 class="heading">Secure your data with our encryption.</h2>
+                                        <p class="text-justify">Designed to protect your data whenever you transfer,
+                                            store, or access it. Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Accusantium atque magnam alias laudantium dolorem impedit reiciendis
+                                            rem assumenda maiores voluptatum cumque optio ratione eos cupiditate
+                                            blanditiis suscipit error, pariatur illum.</p>
+
+                                    </div>
+                                    <div class="col-md-6 col-md-pull-6">
+                                        <img src="./images/2.png" alt="" class="img-responsive">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SECURITY SLIDE END -->
+
+
+
+
+
+                    </div>
+                </div>
+                <!-- RIGHT SECTION END -->
+
+                <!-- FORM SECTION START -->
+                <div class="col-md-3 form-section hidden-xs hidden-sm">
+                    <img src="./images/syndoc-logo.png" alt="" class="img-responsive logo">
+                    <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item ">
+                                <h1 class="heading"><b>Forgot</b> Password</h1>
+                                <p>Enter your email to get an email on how to change your password</p>
+                                <form action="">
+                                    <div class="form-group">
+                                        <div class="fa fa-at"></div>
+                                        <input type="email" class="form-control" id="email" placeholder="Email"
+                                            required>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p><a href="#myCarousel1" data-slide="next"><span
+                                                        class="gradient-heading"><b>Back to Login</b></span></a></p>
+                                        </div>
+                                        <div class="col-md-6 text-right">
+                                            <input type="submit" class="btn btn-custom" name="login" value="Send Link">
+                                        </div>
+                                    </div>
+                                </form>
+                                <br>
+
+                            </div>
+                            <div class="item">
+                                <h1 class="heading"><b>Log</b> In</h1>
+                                <p>Enter your email and password to enter the cloud.</p>
+                                <form action="">
+                                    <div class="form-group">
+                                        <div class="fa fa-at"></div>
+                                        <input type="email" class="form-control" id="email" placeholder="Email"
+                                            required>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="fa fa-lock"></div>
+                                        <input type="password" class="form-control password-field" id="pwd"
+                                            placeholder="Password" required>
+                                        <div class="fa fa-eye"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 text-left">
+                                            <a href="#myCarousel1" data-slide="prev"><span><b>Forgot
+                                                        Password?</b></span></a>
+                                        </div>
+                                        <div class="col-md-6 text-right">
+                                            <input type="submit" class="btn btn-custom" name="login" value="Log Me In">
+                                        </div>
+                                    </div>
+                                </form>
+                                <br>
+                                <p>Don't have an account? <a href="#myCarousel1" data-slide="next"><span
+                                            class="gradient-heading"><b>Click here to sign up!</b></span></a></p>
+                            </div>
+
+                            <div class="item active">
+                                <h1 class="heading"><b>Sign</b> Up</h1>
+                                <p>Please enter your details to sign up.</p>
+                                <form action="" class="sign-up-form">
+                                    <div class="form-group">
+                                        <div class="fa fa-address-card"></div>
+                                        <input type="text" class="form-control signup-val-check" name="name" placeholder="Name" required>
+                                        <p class="text-red">Field cannot be empty</p>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="fa fa-user"></div>
+                                        <input type="text" class="form-control signup-val-check" name="username" placeholder="Username"
+                                            required>
+                                        <p class="text-red">Field cannot be empty</p>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="fa fa-at"></div>
+                                        <input type="email" class="form-control signup-val-check" name="email" placeholder="Email"
+                                            required>
+                                        <p class="text-red">Field cannot be empty</p>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="fa fa-lock"></div>
+                                        <input type="password" class="form-control password-field signup-pwd" name="pwd"
+                                            placeholder="Password" required>
+                                        <div class="fa fa-eye"></div>
+                                    </div>
+                                    <div class="strength-check">
+                                        <p><i class="fa fa-times lengthcheck"></i> Must be 8 char long</p>
+                                        <p><i class="fa fa-times alphanumcheck"></i> Must be Alphanumeric</p>
+                                        <p><i class="fa fa-times capscheck"></i> Must contain a capital alphabet</p>
+                                        <p><i class="fa fa-times specialcheck"></i> Must contain a special character</p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" class="btn btn-custom" name="signup" value="Sign Me Up">
+                                    </div>
+
+                                </form>
+                                <p>Already have an account? <a href="#myCarousel1" data-slide="prev"><span
+                                            class="gradient-heading"><b>Click here to Log In</b></span></a></p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- FORM SECTION END -->
+
+
+                <!-- NAVBAR SECTION START -->
+                <div class="container-fluid custom-nav hidden-xs hidden-sm">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Terms & Conditions</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- NAVBAR SECTION END -->
+
+
+            </div>
+        </div>
+    </body>
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage();
+        });
+    </script>
+    <script src="../js/main.js"></script>
+
+
+</html>

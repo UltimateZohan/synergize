@@ -1,0 +1,50 @@
+
+body p, label, a, button{
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  body p{
+    font-size: 15px;
+    line-height: 30px;
+  }
+  body a,body a:hover{
+    text-decoration: none;
+    color: black;
+  }
+  .navbar-about{
+    background-color: transparent;
+  }
+  .navbar-nav>li>a{
+    color: white;
+    text-transform: uppercase;
+  }
+  .navbar-nav>li>a:hover{
+    background-color: transparent;
+  }
+  .heading{
+    font-family: 'Roboto', sans-serif;
+  }
+  .hero-sec{
+    background-image: url('./images/main-bg.jpg');
+    background-size: cover;
+    padding: 80px 100px 0px 100px;;
+}
+.hero-sec .text-sec .logo{
+    height: 70px;
+    margin-bottom: 110px;
+}
+  .hero-sec .heading{
+    text-transform: uppercase;
+    font-size: 50px; 
+    color: black;
+  }
+  .gradient-heading{
+    background: -webkit-linear-gradient(left, #0C57C6 0%, #08CAEB 51%, #0C57C6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .counter-sec p{
+      font-weight: bold
+  }
+  .counter-sec p span{
+    font-size: 40px;
+}

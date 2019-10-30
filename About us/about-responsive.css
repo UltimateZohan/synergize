@@ -1,0 +1,36 @@
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .hero-sec{
+        padding: 20px;
+        background-position: right;
+        color: white;
+    }
+    .hero-sec .heading{
+        color: white;
+    }
+    .hero-sec .text-sec .logo{
+        margin-bottom: 10px;
+    }
+    .counter-sec p span{
+        font-size: 23px;
+    }
+    .counter-sec p{
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .navbar-custom{
+        margin-bottom: 0;
+    }
+    .navbar-custom .navbar-brand .logo {
+        height: 50px;
+    }
+    .navbar-custom .navbar-brand{
+        padding: 8px;
+    }
+    .navbar-custom .navbar-toggle{
+        border-color: black;
+        margin-top: 18px;
+    }
+    .navbar-toggle .icon-bar{
+        background: black;
+    }
+}

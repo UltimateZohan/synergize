@@ -1,0 +1,163 @@
+body p, label, a, button{
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  body p{
+    font-size: 12px;
+    line-height: 30px;
+  }
+  body a,body a:hover{
+    text-decoration: none;
+    color: black;
+  }
+  .heading{
+    font-family: 'Roboto', sans-serif;
+  }
+.modal-header{
+    background: #2196F3;
+    color: white;
+}
+.table>thead>tr>th{
+    border: 0;
+}
+.modal-body{
+    padding-bottom: 0;
+}
+.modal-content{
+    border-radius: 0;
+}
+.modal-header .close{
+    color: white;
+    text-shadow: none;
+    opacity: 1;
+}
+.modal-footer{
+    border: 0;
+}
+input[type="checkbox"]{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.fa-check-circle{
+    color: #696969;
+}
+#SyndocModal input:checked ~ .fa-check-circle{
+    color: #2196F3;
+}
+.modal-body .fa{
+    font-size: 17px;
+}
+.text-blue{
+    color: #2196F3;
+}
+.fa-trash{
+    color: #f55555;
+}
+.form-control{
+    border-radius: 25px;
+    box-shadow: none;
+}
+
+.add-user-table{
+    margin-bottom: 0;
+}
+.add-user-table .inline p,
+.add-user-table .inline div{
+    display: inline-flex;
+}
+.add-user-table div{
+    margin-left: 6%;
+}
+.add-user-table>tbody>tr:last-child td{
+    border-top: 0;
+}
+.add-user-table>tbody>tr:last-child td .form-control{
+    border: 0;
+    border-bottom: 1px solid #555;
+    border-radius: 0;
+}
+.btn-add{
+    border: 1px solid #00ad00;
+    border-radius: 50px;
+    color: #00ad00;
+    font-weight: 700;
+    transition: 0.5s;
+    background: white;
+}
+.btn-add .fa{
+    color: #00ad00;
+    transition: 0.5s
+}
+.btn-add:hover{
+    background-color: #00ad00;
+    color: white;
+    transition: 0.5s
+}
+.btn-add:hover .fa{
+    color: white;
+    transition: 0.5s
+}
+.modal-footer{
+    padding-top: 0;
+}
+.sgntxt{
+    margin-top: 5px;
+}
+.sgntxt .fa{
+    margin-left: 5px;
+}
+.sgntextfirst input{
+    left: 43%;
+    top: 16px;
+}
+.sgntextsecond input{
+    left: 77%;
+    top: 16px;
+}
+.text-link{
+    color: #00ad00;
+    cursor: pointer;
+    margin: 0;
+    margin-top: 5px;
+}
+.text-link .fa{
+    color: #00ad00;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #2196F3;
+    box-shadow: none;
+    border-color: #2196F3;
+}
+.modal-footer{
+    margin-top: 40px;
+    padding-bottom: 5px;
+}
+.drop-link{
+    margin-top: 5px;
+    margin-bottom: 0;
+    background: #f2f2f2;
+    padding-top: 8px;
+    display: none;
+}
+.drop-link .btn{
+    border-radius: 25px;
+    border: 0;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .text-link{
+        font-size: 10px;
+    }
+    .sgntxt{
+        font-size: 10px;
+    }
+    .modal-footer{
+        margin-top: 20px;
+    }
+    .sgntxt{
+        line-height: 13px;
+    margin-bottom: 2px;
+    }
+}
